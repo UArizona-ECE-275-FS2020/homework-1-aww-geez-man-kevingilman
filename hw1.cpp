@@ -125,7 +125,7 @@ int main(int argc, char** argv) {
 		}
 	}
 	else {
-		std::cout << "ERROR, unknown dimension";
+		std::cout << "ERROR, unknown dimension!!";
 	}
 
 	return(0);
