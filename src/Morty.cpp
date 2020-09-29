@@ -10,12 +10,79 @@
 // Include the Morty header file
 #include "Morty.hpp"
 
-// =========================================================================== // 
-//          Define functions enclosed in Namespace C137 here 
-// =========================================================================== // 
+
+void c137::Morty(int start, int stop) {
+  int i;
+		for (i = start; i <= stop; ++i) {
+			if (i % 15 == 0) {
+				std::cout << i << ": Aww Geez Man\n";
+			}
+			else if (i % 5 == 0) {
+				std::cout << i << ": Geez\n";
+			}
+			else if (i % 3 == 0) {
+				std::cout << i << ": Aww\n";
+			}
+			else {
+				std::cout << i << ": \n";
+			}
+		}
+	}
+
+	void c137::Morty(int start, int stop, int step) {
+		int i;
+
+		for (i = start; i <= stop; i = i + step) {
+			if (i % 15 == 0) {
+				std::cout << i << ": Aww Geez Man\n";
+			}
+			else if (i % 5 == 0) {
+				std::cout << i << ": Geez\n";
+			}
+			else if (i % 3 == 0) {
+				std::cout << i << ": Aww\n";
+			}
+			else {
+				std::cout << i << ": \n";
+			}
+		}
+	}
 
 
+void z286::Morty(int start, int stop) {
+		int i;
 
-// =========================================================================== // 
-//          Define functions enclosed in Namespace Z286 here 
-// =========================================================================== // 
+		for (i = start; i <= stop; ++i) {
+			if (i % 15 == 0) {
+				std::cout << i << ": naM zeeG wwA\n";
+			}
+			else if (i % 5 == 0) {
+				std::cout << i << ": zeeG\n";
+			}
+			else if (i % 3 == 0) {
+				std::cout << i << ": wwA\n";
+			}
+			else {
+				std::cout << i << ": \n";
+			}
+		}
+	}
+
+	void z286::Morty(int start, int stop, int step) {
+		int i;
+
+		for (i = start; i <= stop; i = i + step) {
+			if (i % 15 == 0) {
+				std::cout << i << ": naM zeeG wwA\n";
+			}
+			else if (i % 5 == 0) {
+				std::cout << i << ": zeeG\n";
+			}
+			else if (i % 3 == 0) {
+				std::cout << i << ": wwA\n";
+			}
+			else {
+				std::cout << i << ": \n";
+			}
+		}
+	}
