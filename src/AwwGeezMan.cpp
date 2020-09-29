@@ -21,7 +21,6 @@ exists a Morty who says everything backwards.
 
 // Include the Morty header file
 #include "Morty.hpp"
-#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -32,7 +31,7 @@ int main (int argc, char** argv) {
 	// ./AwwGeezMan {start} {stop} {dimension}
 	// or 
 	// ./AwwGeezMan {start} {stop} {step} {dimension}
-	if (ac != 4 and ac != 5) {
+	if (argc != 4 and argc != 5) {
 		std::cout << "Error: Command line arguments are incorrect. Call program as (1) or (2)" 
 			<< std::endl;
 		std::cout << "(1)\t./AwwGeezMan {start} {stop} {dimension}" << std::endl;
@@ -77,7 +76,7 @@ int main (int argc, char** argv) {
 		}
 	}
 	else {
-		std::cout << "ERROR, unknown dimension!!";
+		std::cout << "ERROR: Unknown dimension!!";
 	}
 
 	return(0);
