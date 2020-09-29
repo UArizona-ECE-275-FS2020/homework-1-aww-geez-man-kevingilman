@@ -31,11 +31,11 @@ namespace interdimensional {
 */
 
 namespace C137 {
-	Morty(start, stop);
-	Morty(start, stop, step);
+	Morty(int, int);
+	Morty(int, int, int);
 }
 		
 namespace Z286 {
-	Morty(start, stop);
-	Morty(start, stop, step);
+	Morty(int, int);
+	Morty(int, int, int);
 }
