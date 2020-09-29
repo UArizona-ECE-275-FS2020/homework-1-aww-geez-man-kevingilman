@@ -24,6 +24,7 @@ exists a Morty who says everything backwards.
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 
 int main (int argc, char** argv) {
