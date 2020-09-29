@@ -44,7 +44,7 @@ int main (int argc, char** argv) {
 	int start;
 	int stop;
 	int step;
-	char dimension[5];
+	char dimension[10];
 
 	switch (argc) {
 	case 4: 
