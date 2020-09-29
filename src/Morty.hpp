@@ -30,12 +30,12 @@ namespace interdimensional {
 }
 */
 
-// =========================================================================== // 
-//          Declare Namespace C137 and enclosed functions here 
-// =========================================================================== // 
-
-
-
-// =========================================================================== // 
-//          Declare Namespace Z286 and enclosed functions here 
-// =========================================================================== // 
+namespace c137 {
+	Morty(start, stop);
+	Morty(start, stop, step);
+}
+		
+namespace z286 {
+	Morty(start, stop);
+	Morty(start, stop, step);
+}
