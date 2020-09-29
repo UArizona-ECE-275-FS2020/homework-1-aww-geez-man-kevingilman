@@ -62,18 +62,18 @@ int main (int argc, char** argv) {
 
 	if (strcmp(dimension, "C137") == 0) {
 		if (argc == 4) {
-			c137::Morty(start, stop);
+			C137::Morty(start, stop);
 		}
 		else {
-			c137::Morty(start, stop, step);
+			C137::Morty(start, stop, step);
 		}
 	}
 	else if (strcmp(dimension, "Z286") == 0) {
 		if (argc == 4) {
-			z286::Morty(start, stop);
+			Z286::Morty(start, stop);
 		}
 		else {
-			z286::Morty(start, stop, step);
+			Z286::Morty(start, stop, step);
 		}
 	}
 	else {
