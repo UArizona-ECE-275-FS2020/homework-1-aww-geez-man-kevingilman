@@ -23,7 +23,7 @@ exists a Morty who says everything backwards.
 #include "Morty.hpp"
 
 
-int main (int ac, char** av) {
+int main (int argc, char** argv) {
 	// Parse the command line arguments. The program is executed as
 	// ./AwwGeezMan {start} {stop} {dimension}
 	// or 
@@ -37,12 +37,44 @@ int main (int ac, char** av) {
 		return -1;
 	}
 	
-	// Parse the command line arguments
-	
-		
-	// Depending on the dimension of the arguments, call the appropriate Morty
-	// function
-	
-	
-	return 0;
+	int start;
+	int stop;
+	int step;
+	char dimension[5];
+
+	switch (argc) {
+	case 4: 
+		start = atoi(*(argv + 1));
+		stop = atoi(*(argv + 2));
+		strcpy(dimension, *(argv + 3));
+		break;
+	case 5:
+		start = atoi(*(argv + 1));
+		stop = atoi(*(argv + 2));
+		step = atoi(*(argv + 3));
+		strcpy(dimension, *(argv + 4));
+		break;
+	}
+
+	if (strcmp(dimension, "c137") == 0) {
+		if (argc == 4) {
+			c137::Morty(start, stop);
+		}
+		else {
+			c137::Morty(start, stop, step);
+		}
+	}
+	else if (strcmp(dimension, "z286") == 0) {
+		if (argc == 4) {
+			z286::Morty(start, stop);
+		}
+		else {
+			z286::Morty(start, stop, step);
+		}
+	}
+	else {
+		std::cout << "ERROR, unknown dimension!!";
+	}
+
+	return(0);
 }
