@@ -13,7 +13,7 @@
 
 void C137::Morty(int start, int stop) {
   int i;
-	std::cout << "Morty C137 says:\n;
+	std::cout << "Morty C137 says:\n";
 		for (i = start; i <= stop; ++i) {
 			if (i % 15 == 0) {
 				std::cout << i << ": Aww Geez Man\n";
@@ -32,7 +32,7 @@ void C137::Morty(int start, int stop) {
 
 void C137::Morty(int start, int stop, int step) {
 	int i;
-	std::cout << "Morty C137 says:\n;
+	std::cout << "Morty C137 says:\n";
 
 	for (i = start; i <= stop; i = i + step) {
 		if (i % 15 == 0) {
@@ -53,7 +53,7 @@ void C137::Morty(int start, int stop, int step) {
 
 void Z286::Morty(int start, int stop) {
 		int i;
-	std::cout << "Morty Z286 says:\n;
+	std::cout << "Morty Z286 says:\n";
 
 		for (i = start; i <= stop; ++i) {
 			if (i % 15 == 0) {
@@ -73,7 +73,7 @@ void Z286::Morty(int start, int stop) {
 
 	void Z286::Morty(int start, int stop, int step) {
 		int i;
-		std::cout << "Morty Z286 says:\n;
+		std::cout << "Morty Z286 says:\n";
 
 		for (i = start; i <= stop; i = i + step) {
 			if (i % 15 == 0) {
