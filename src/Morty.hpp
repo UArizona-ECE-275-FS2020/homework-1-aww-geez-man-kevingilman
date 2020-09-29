@@ -30,12 +30,12 @@ namespace interdimensional {
 }
 */
 
-namespace c137 {
+namespace C137 {
 	Morty(start, stop);
 	Morty(start, stop, step);
 }
 		
-namespace z286 {
+namespace Z286 {
 	Morty(start, stop);
 	Morty(start, stop, step);
 }
